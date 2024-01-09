@@ -1,15 +1,12 @@
-# CryptoApp React/Redux RTK
+# Mass Affluent
+This is a demo dashboard to showcase AI capabilities to analyse data and provide investment profile comparision. 
+
+
 
 ## Features
+- Analyze the performance of customers within the same segment as the specified customer.
+- Evaluating achievements and financial goals set in the specific period.
+- Tailor recommendations to suit the individual's financial profile.
 
-- Cryptocurrency stats, latest news
-- Responsive sidebar
 
-![image](https://user-images.githubusercontent.com/28065716/215087767-0dee38d7-0abf-497a-acfa-b34d955a609b.png)
-
-![image](https://user-images.githubusercontent.com/28065716/215087863-74af52c1-51b3-4b20-bccb-34b0a354ae0d.png)
-
-![image](https://user-images.githubusercontent.com/28065716/215087930-23b338f3-62da-4d19-8532-56b40fe9ec1d.png)
-
-![image](https://user-images.githubusercontent.com/28065716/215087992-ce64e2b0-0b16-40a0-a728-74f113cb12f4.png)
 

@@ -6,8 +6,8 @@ import SidebarButton from "./SidebarButton";
 
 const buttons = [
     { label: 'Home', icon: FaHome, href: "/" },
-    { label: 'Cryptocurrencies', icon: FaCoins, href: "/cryptocurrencies" },
-    { label: 'News', icon: FaNewspaper, href: "/news" },
+    // { label: 'Cryptocurrencies', icon: FaCoins, href: "/cryptocurrencies" },
+    // { label: 'News', icon: FaNewspaper, href: "/news" },
 ]
 
 export default function Sidebar() {
@@ -36,7 +36,7 @@ export default function Sidebar() {
         <Flex flexDir={activeMenu ? "row" : "column"}>
             {activeMenu ?
                 <Flex flexDir={"column"} boxShadow={"lg"} justify={"left"} align={"left"} minH={"100vh"} p={6}>
-                    <Heading fontWeight={"medium"} textAlign={"center"} mb={5} size={"md"} > CryptoApp</Heading >
+                    <Heading minWidth={150} fontWeight={"medium"} textAlign={"center"} mb={5} size={"md"}>Mass Affluent</Heading>
                     <Flex flexDir={"column"} gap={6}>
                         {buttons.map((btn, key) => {
                             return <SidebarButton key={key} href={btn.href} icon={btn.icon} label={btn.label} />
@@ -44,7 +44,7 @@ export default function Sidebar() {
                     </Flex>
                 </Flex >
                 : <Flex p={1} boxShadow={"lg"} flexDir={"column"}>
-                    <Heading fontWeight={"medium"} textAlign={"center"} mb={5} size={"md"} > CryptoApp</Heading >
+                    <Heading fontWeight={"medium"} textAlign={"center"} mb={5} size={"md"}>Mass Affluent</Heading>
                     {buttons.map((btn, key) => {
                         return <SidebarButton key={key} href={btn.href} icon={btn.icon} label={btn.label} />
                     })}

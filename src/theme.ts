@@ -1,17 +1,17 @@
 import { extendTheme, ThemeConfig } from "@chakra-ui/react";
 
 const config: ThemeConfig = {
-    initialColorMode: 'dark',
-    useSystemColorMode: false,
+    initialColorMode: 'light',
+    useSystemColorMode: true,
 }
 
 const theme = extendTheme({
     config, styles: {
         global: {
             "h3": {
-                'margin-top': '20px',
-                'margin-bottom': '20px',
-                'font-weight': 'bold'
+                'marginTop': '20px',
+                'marginBottom': '20px',
+                'fontWeight': 'bold'
             },
             ".activeBtn": {
                 'bgColor': '#0099cc',

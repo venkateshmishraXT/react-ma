@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <Flex p={2} align={"center"} flexDir={"column"}>
-            <Text>Cryptocurrencies</Text>
+            <Text>Mass Affluent</Text>
             <Text>All rights reserved</Text>
             <HStack>
                 <Link to={"/"}><Text _hover={{ textDecor: 'underline' }}>Home</Text></Link>
